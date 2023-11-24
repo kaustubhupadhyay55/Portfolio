@@ -1,0 +1,72 @@
+#education{
+    text-align: center;
+    min-height: calc(100vh-4rem);
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    height: calc(100vw-4rem);
+    width: 100vw;
+    max-width: 65rem;
+    margin: 0 auto;
+}
+.educationTitle{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+}
+.college{
+    background: rgb(40,40,40);
+    border: none;
+    border-radius: 0.75rem;
+    text-align: left;
+    padding: 1.25rem 3rem;
+    margin: 2rem;
+
+}
+.intermediate{
+    background: rgb(40,40,40);
+    border: none;
+    border-radius: 0.75rem;
+    text-align:left;
+    padding: 1.25rem 3rem;
+    margin: 2rem;
+   
+}
+.highschool{
+    background: rgb(40,40,40);
+    border: none;
+    border-radius: 0.75rem;
+    text-align:left;
+    padding: 1.25rem 3rem;
+    margin: 2rem;
+    
+}
+.heading{
+    font-size: 1.5rem;
+    font-weight: 250;
+}
+.para{
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+.eduImg{
+    padding-left: 1rem;
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+}
+.edImg{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+}
+.year{
+    font-size: small;
+    font-weight: 100;
+}
+@media screen and (max-width:480) {
+    #education{
+        margin-left: 2rem;
+    }
+}
